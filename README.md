@@ -21,6 +21,10 @@
 ## To Build
 
 	./build.sh
+
+## To Run
+
+	./WebServer
 	
 ## Optimized Methods
   
@@ -37,3 +41,6 @@
   * 采用提前准备一个空的文件描述符，在面对服务器文件描述符耗尽时关闭/接受/再关闭的方法，有效避免因描述符耗尽而导致服务器Busy Loop
   * 采用有限状态机解析HTTP请求，使用数据库保存用户名密码
   * WebServer采用One Loop Per Thread + Thread Pool编程模式，底层实现了Reactor模式的网络库
+
+## Notice
+  默认端口号：1234
