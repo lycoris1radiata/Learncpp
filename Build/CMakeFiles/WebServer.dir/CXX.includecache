@@ -1,0 +1,1020 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Base/address.h
+stdio.h
+-
+string
+-
+cstring
+-
+
+../Base/callback.h
+memory
+-
+functional
+-
+
+../Base/condition.h
+pthread.h
+-
+mutex.h
+../Base/mutex.h
+noncopyable.h
+../Base/noncopyable.h
+
+../Base/currentthread.h
+stdint.h
+-
+
+../Base/latch.h
+mutex.h
+../Base/mutex.h
+condition.h
+../Base/condition.h
+noncopyable.h
+../Base/noncopyable.h
+
+../Base/mutex.h
+pthread.h
+-
+noncopyable.h
+../Base/noncopyable.h
+
+../Base/noncopyable.h
+
+../Base/sem.h
+exception
+-
+pthread.h
+-
+semaphore.h
+-
+
+../Base/timestamp.h
+stdio.h
+-
+sys/time.h
+-
+string
+-
+noncopyable.h
+../Base/noncopyable.h
+
+../Http/httpcontent.h
+utility
+-
+algorithm
+-
+Buffer.h
+../Http/Buffer.h
+httprequest.h
+../Http/httprequest.h
+httpparsestate.h
+../Http/httpparsestate.h
+
+../Http/httpparsestate.h
+
+../Http/httprequest.h
+httpparsestate.h
+../Http/httpparsestate.h
+string
+-
+map
+-
+
+../Http/httpresponse.h
+string
+-
+utility
+-
+sys/stat.h
+-
+httprequest.h
+../Http/httprequest.h
+
+../Http/httpserver.h
+stdio.h
+-
+functional
+-
+utility
+-
+memory
+-
+map
+-
+string
+-
+callback.h
+../Http/callback.h
+EventLoop.h
+../Http/EventLoop.h
+Server.h
+../Http/Server.h
+Connection.h
+../Http/Connection.h
+Buffer.h
+../Http/Buffer.h
+httpresponse.h
+../Http/httpresponse.h
+httpcontent.h
+../Http/httpcontent.h
+httprequest.h
+../Http/httprequest.h
+timestamp.h
+../Http/timestamp.h
+sql_connection_pool.h
+../Http/sql_connection_pool.h
+mysql/mysql.h
+-
+
+../Http/sql_connection_pool.h
+stdio.h
+-
+list
+-
+mysql/mysql.h
+-
+error.h
+-
+string.h
+-
+iostream
+-
+string
+-
+sem.h
+../Http/sem.h
+mutex.h
+../Http/mutex.h
+
+../Log/block_queue.h
+iostream
+-
+stdlib.h
+-
+pthread.h
+-
+sys/time.h
+-
+condition.h
+../Log/condition.h
+mutex.h
+../Log/mutex.h
+
+../Log/log.h
+stdio.h
+-
+iostream
+-
+string
+-
+stdarg.h
+-
+pthread.h
+-
+block_queue.h
+../Log/block_queue.h
+mutex.h
+../Log/mutex.h
+
+../Server/Acceptor.h
+sys/socket.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+netinet/tcp.h
+-
+memory
+-
+functional
+-
+noncopyable.h
+../Server/noncopyable.h
+address.h
+../Server/address.h
+
+../Server/Buffer.h
+vector
+-
+algorithm
+-
+string
+-
+assert.h
+-
+cstring
+-
+noncopyable.h
+../Server/noncopyable.h
+
+../Server/Channel.h
+sys/epoll.h
+-
+utility
+-
+memory
+-
+EventLoop.h
+../Server/EventLoop.h
+callback.h
+../Server/callback.h
+noncopyable.h
+../Server/noncopyable.h
+
+../Server/Connection.h
+string.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+string
+-
+memory
+-
+utility
+-
+callback.h
+../Server/callback.h
+Channel.h
+../Server/Channel.h
+Buffer.h
+../Server/Buffer.h
+noncopyable.h
+../Server/noncopyable.h
+timestamp.h
+../Server/timestamp.h
+httpcontent.h
+../Server/httpcontent.h
+
+../Server/Epoller.h
+sys/epoll.h
+-
+vector
+-
+map
+-
+noncopyable.h
+../Server/noncopyable.h
+
+../Server/EventLoop.h
+stdint.h
+-
+unistd.h
+-
+assert.h
+-
+sys/eventfd.h
+-
+pthread.h
+-
+vector
+-
+functional
+-
+memory
+-
+utility
+-
+mutex.h
+../Server/mutex.h
+Epoller.h
+../Server/Epoller.h
+currentthread.h
+../Server/currentthread.h
+timestamp.h
+../Server/timestamp.h
+timerqueue.h
+../Server/timerqueue.h
+noncopyable.h
+../Server/noncopyable.h
+
+../Server/Server.h
+memory
+-
+map
+-
+utility
+-
+memory
+-
+string
+-
+callback.h
+../Server/callback.h
+EventLoop.h
+../Server/EventLoop.h
+Acceptor.h
+../Server/Acceptor.h
+Connection.h
+../Server/Connection.h
+noncopyable.h
+../Server/noncopyable.h
+address.h
+../Server/address.h
+eventloopthreadpool.h
+../Server/eventloopthreadpool.h
+
+../Server/eventloopthreadpool.h
+vector
+-
+memory
+-
+noncopyable.h
+../Server/noncopyable.h
+
+../Timer/timer.h
+functional
+-
+timestamp.h
+../Timer/timestamp.h
+noncopyable.h
+../Timer/noncopyable.h
+
+../Timer/timerqueue.h
+unistd.h
+-
+sys/timerfd.h
+-
+set
+-
+vector
+-
+memory
+-
+utility
+-
+functional
+-
+timer.h
+../Timer/timer.h
+timestamp.h
+../Timer/timestamp.h
+noncopyable.h
+../Timer/noncopyable.h
+log.h
+../Timer/log.h
+
+/home/zzx/桌面/webserver /Base/condition.cc
+condition.h
+/home/zzx/桌面/webserver /Base/condition.h
+stdint.h
+-
+sys/time.h
+-
+errno.h
+-
+
+/home/zzx/桌面/webserver /Base/condition.h
+pthread.h
+-
+mutex.h
+/home/zzx/桌面/webserver /Base/mutex.h
+noncopyable.h
+/home/zzx/桌面/webserver /Base/noncopyable.h
+
+/home/zzx/桌面/webserver /Base/mutex.h
+pthread.h
+-
+noncopyable.h
+/home/zzx/桌面/webserver /Base/noncopyable.h
+
+/home/zzx/桌面/webserver /Base/noncopyable.h
+
+/home/zzx/桌面/webserver /Http/httpcontent.cpp
+httpcontent.h
+/home/zzx/桌面/webserver /Http/httpcontent.h
+algorithm
+-
+httprequest.h
+/home/zzx/桌面/webserver /Http/httprequest.h
+httpparsestate.h
+/home/zzx/桌面/webserver /Http/httpparsestate.h
+
+/home/zzx/桌面/webserver /Http/httpcontent.h
+utility
+-
+algorithm
+-
+Buffer.h
+/home/zzx/桌面/webserver /Http/Buffer.h
+httprequest.h
+/home/zzx/桌面/webserver /Http/httprequest.h
+httpparsestate.h
+/home/zzx/桌面/webserver /Http/httpparsestate.h
+
+/home/zzx/桌面/webserver /Http/httpparsestate.h
+
+/home/zzx/桌面/webserver /Http/httprequest.cpp
+httprequest.h
+/home/zzx/桌面/webserver /Http/httprequest.h
+utility
+-
+algorithm
+-
+string
+-
+httpparsestate.h
+/home/zzx/桌面/webserver /Http/httpparsestate.h
+
+/home/zzx/桌面/webserver /Http/httprequest.h
+httpparsestate.h
+/home/zzx/桌面/webserver /Http/httpparsestate.h
+string
+-
+map
+-
+
+/home/zzx/桌面/webserver /Http/httpresponse.cpp
+httpresponse.h
+/home/zzx/桌面/webserver /Http/httpresponse.h
+stdio.h
+-
+string
+-
+fcntl.h
+-
+unistd.h
+-
+log.h
+/home/zzx/桌面/webserver /Http/log.h
+Buffer.h
+/home/zzx/桌面/webserver /Http/Buffer.h
+
+/home/zzx/桌面/webserver /Http/httpresponse.h
+string
+-
+utility
+-
+sys/stat.h
+-
+httprequest.h
+/home/zzx/桌面/webserver /Http/httprequest.h
+
+/home/zzx/桌面/webserver /Http/httpserver.cpp
+httpserver.h
+/home/zzx/桌面/webserver /Http/httpserver.h
+functional
+-
+string.h
+-
+address.h
+/home/zzx/桌面/webserver /Http/address.h
+sql_connection_pool.h
+/home/zzx/桌面/webserver /Http/sql_connection_pool.h
+log.h
+/home/zzx/桌面/webserver /Http/log.h
+
+/home/zzx/桌面/webserver /Http/httpserver.h
+stdio.h
+-
+functional
+-
+utility
+-
+memory
+-
+map
+-
+string
+-
+callback.h
+/home/zzx/桌面/webserver /Http/callback.h
+EventLoop.h
+/home/zzx/桌面/webserver /Http/EventLoop.h
+Server.h
+/home/zzx/桌面/webserver /Http/Server.h
+Connection.h
+/home/zzx/桌面/webserver /Http/Connection.h
+Buffer.h
+/home/zzx/桌面/webserver /Http/Buffer.h
+httpresponse.h
+/home/zzx/桌面/webserver /Http/httpresponse.h
+httpcontent.h
+/home/zzx/桌面/webserver /Http/httpcontent.h
+httprequest.h
+/home/zzx/桌面/webserver /Http/httprequest.h
+timestamp.h
+/home/zzx/桌面/webserver /Http/timestamp.h
+sql_connection_pool.h
+/home/zzx/桌面/webserver /Http/sql_connection_pool.h
+mysql/mysql.h
+-
+
+/home/zzx/桌面/webserver /Http/sql_connection_pool.cpp
+mysql/mysql.h
+-
+stdio.h
+-
+string
+-
+string.h
+-
+stdlib.h
+-
+list
+-
+pthread.h
+-
+iostream
+-
+assert.h
+-
+sql_connection_pool.h
+/home/zzx/桌面/webserver /Http/sql_connection_pool.h
+log.h
+/home/zzx/桌面/webserver /Http/log.h
+
+/home/zzx/桌面/webserver /Http/sql_connection_pool.h
+stdio.h
+-
+list
+-
+mysql/mysql.h
+-
+error.h
+-
+string.h
+-
+iostream
+-
+string
+-
+sem.h
+/home/zzx/桌面/webserver /Http/sem.h
+mutex.h
+/home/zzx/桌面/webserver /Http/mutex.h
+
+/home/zzx/桌面/webserver /Log/block_queue.h
+iostream
+-
+stdlib.h
+-
+pthread.h
+-
+sys/time.h
+-
+condition.h
+/home/zzx/桌面/webserver /Log/condition.h
+mutex.h
+/home/zzx/桌面/webserver /Log/mutex.h
+
+/home/zzx/桌面/webserver /Log/log.cpp
+string.h
+-
+time.h
+-
+sys/time.h
+-
+stdarg.h
+-
+log.h
+/home/zzx/桌面/webserver /Log/log.h
+pthread.h
+-
+
+/home/zzx/桌面/webserver /Log/log.h
+stdio.h
+-
+iostream
+-
+string
+-
+stdarg.h
+-
+pthread.h
+-
+block_queue.h
+/home/zzx/桌面/webserver /Log/block_queue.h
+mutex.h
+/home/zzx/桌面/webserver /Log/mutex.h
+
+/home/zzx/桌面/webserver /Server/Acceptor.cpp
+Acceptor.h
+/home/zzx/桌面/webserver /Server/Acceptor.h
+assert.h
+-
+sys/socket.h
+-
+sys/types.h
+-
+bits/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+fcntl.h
+-
+netinet/tcp.h
+-
+functional
+-
+cstring
+-
+address.h
+/home/zzx/桌面/webserver /Server/address.h
+Channel.h
+/home/zzx/桌面/webserver /Server/Channel.h
+EventLoop.h
+/home/zzx/桌面/webserver /Server/EventLoop.h
+log.h
+/home/zzx/桌面/webserver /Server/log.h
+
+/home/zzx/桌面/webserver /Server/Acceptor.h
+sys/socket.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+netinet/tcp.h
+-
+memory
+-
+functional
+-
+noncopyable.h
+/home/zzx/桌面/webserver /Server/noncopyable.h
+address.h
+/home/zzx/桌面/webserver /Server/address.h
+
+/home/zzx/桌面/webserver /Server/Buffer.cpp
+Buffer.h
+/home/zzx/桌面/webserver /Server/Buffer.h
+sys/uio.h
+-
+iostream
+-
+log.h
+/home/zzx/桌面/webserver /Server/log.h
+
+/home/zzx/桌面/webserver /Server/Buffer.h
+vector
+-
+algorithm
+-
+string
+-
+assert.h
+-
+cstring
+-
+noncopyable.h
+/home/zzx/桌面/webserver /Server/noncopyable.h
+
+/home/zzx/桌面/webserver /Server/Channel.cpp
+Channel.h
+/home/zzx/桌面/webserver /Server/Channel.h
+sys/poll.h
+-
+sys/epoll.h
+-
+log.h
+/home/zzx/桌面/webserver /Server/log.h
+
+/home/zzx/桌面/webserver /Server/Channel.h
+sys/epoll.h
+-
+utility
+-
+memory
+-
+EventLoop.h
+/home/zzx/桌面/webserver /Server/EventLoop.h
+callback.h
+/home/zzx/桌面/webserver /Server/callback.h
+noncopyable.h
+/home/zzx/桌面/webserver /Server/noncopyable.h
+
+/home/zzx/桌面/webserver /Server/Connection.cpp
+Connection.h
+/home/zzx/桌面/webserver /Server/Connection.h
+assert.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+errno.h
+-
+string.h
+-
+iostream
+-
+Channel.h
+/home/zzx/桌面/webserver /Server/Channel.h
+Buffer.h
+/home/zzx/桌面/webserver /Server/Buffer.h
+log.h
+/home/zzx/桌面/webserver /Server/log.h
+
+/home/zzx/桌面/webserver /Server/Connection.h
+string.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+string
+-
+memory
+-
+utility
+-
+callback.h
+/home/zzx/桌面/webserver /Server/callback.h
+Channel.h
+/home/zzx/桌面/webserver /Server/Channel.h
+Buffer.h
+/home/zzx/桌面/webserver /Server/Buffer.h
+noncopyable.h
+/home/zzx/桌面/webserver /Server/noncopyable.h
+timestamp.h
+/home/zzx/桌面/webserver /Server/timestamp.h
+httpcontent.h
+/home/zzx/桌面/webserver /Server/httpcontent.h
+
+/home/zzx/桌面/webserver /Server/Epoller.cpp
+Epoller.h
+/home/zzx/桌面/webserver /Server/Epoller.h
+assert.h
+-
+string.h
+-
+sys/epoll.h
+-
+Channel.h
+/home/zzx/桌面/webserver /Server/Channel.h
+log.h
+/home/zzx/桌面/webserver /Server/log.h
+
+/home/zzx/桌面/webserver /Server/Epoller.h
+sys/epoll.h
+-
+vector
+-
+map
+-
+noncopyable.h
+/home/zzx/桌面/webserver /Server/noncopyable.h
+
+/home/zzx/桌面/webserver /Server/EventLoop.cpp
+EventLoop.h
+/home/zzx/桌面/webserver /Server/EventLoop.h
+Channel.h
+/home/zzx/桌面/webserver /Server/Channel.h
+mutex.h
+/home/zzx/桌面/webserver /Server/mutex.h
+unistd.h
+-
+pthread.h
+-
+sys/eventfd.h
+-
+signal.h
+-
+utility
+-
+
+/home/zzx/桌面/webserver /Server/EventLoop.h
+stdint.h
+-
+unistd.h
+-
+assert.h
+-
+sys/eventfd.h
+-
+pthread.h
+-
+vector
+-
+functional
+-
+memory
+-
+utility
+-
+mutex.h
+/home/zzx/桌面/webserver /Server/mutex.h
+Epoller.h
+/home/zzx/桌面/webserver /Server/Epoller.h
+currentthread.h
+/home/zzx/桌面/webserver /Server/currentthread.h
+timestamp.h
+/home/zzx/桌面/webserver /Server/timestamp.h
+timerqueue.h
+/home/zzx/桌面/webserver /Server/timerqueue.h
+noncopyable.h
+/home/zzx/桌面/webserver /Server/noncopyable.h
+
+/home/zzx/桌面/webserver /Server/Server.cpp
+Server.h
+/home/zzx/桌面/webserver /Server/Server.h
+assert.h
+-
+climits
+-
+utility
+-
+Acceptor.h
+/home/zzx/桌面/webserver /Server/Acceptor.h
+Connection.h
+/home/zzx/桌面/webserver /Server/Connection.h
+eventloopthreadpool.h
+/home/zzx/桌面/webserver /Server/eventloopthreadpool.h
+log.h
+/home/zzx/桌面/webserver /Server/log.h
+
+/home/zzx/桌面/webserver /Server/Server.h
+memory
+-
+map
+-
+utility
+-
+memory
+-
+string
+-
+callback.h
+/home/zzx/桌面/webserver /Server/callback.h
+EventLoop.h
+/home/zzx/桌面/webserver /Server/EventLoop.h
+Acceptor.h
+/home/zzx/桌面/webserver /Server/Acceptor.h
+Connection.h
+/home/zzx/桌面/webserver /Server/Connection.h
+noncopyable.h
+/home/zzx/桌面/webserver /Server/noncopyable.h
+address.h
+/home/zzx/桌面/webserver /Server/address.h
+eventloopthreadpool.h
+/home/zzx/桌面/webserver /Server/eventloopthreadpool.h
+
+/home/zzx/桌面/webserver /Server/eventloopthread.cpp
+eventloopthread.h
+/home/zzx/桌面/webserver /Server/eventloopthread.h
+pthread.h
+-
+functional
+-
+mutex.h
+/home/zzx/桌面/webserver /Server/mutex.h
+condition.h
+/home/zzx/桌面/webserver /Server/condition.h
+EventLoop.h
+/home/zzx/桌面/webserver /Server/EventLoop.h
+
+/home/zzx/桌面/webserver /Server/eventloopthread.h
+thread.h
+/home/zzx/桌面/webserver /Server/thread.h
+mutex.h
+/home/zzx/桌面/webserver /Server/mutex.h
+condition.h
+/home/zzx/桌面/webserver /Server/condition.h
+noncopyable.h
+/home/zzx/桌面/webserver /Server/noncopyable.h
+
+/home/zzx/桌面/webserver /Server/eventloopthreadpool.cpp
+eventloopthreadpool.h
+/home/zzx/桌面/webserver /Server/eventloopthreadpool.h
+memory
+-
+eventloopthread.h
+/home/zzx/桌面/webserver /Server/eventloopthread.h
+
+/home/zzx/桌面/webserver /Server/eventloopthreadpool.h
+vector
+-
+memory
+-
+noncopyable.h
+/home/zzx/桌面/webserver /Server/noncopyable.h
+
+/home/zzx/桌面/webserver /Server/thread.cpp
+thread.h
+/home/zzx/桌面/webserver /Server/thread.h
+stdio.h
+-
+unistd.h
+-
+pthread.h
+-
+sys/syscall.h
+-
+latch.h
+/home/zzx/桌面/webserver /Server/latch.h
+
+/home/zzx/桌面/webserver /Server/thread.h
+stdio.h
+-
+sys/prctl.h
+-
+pthread.h
+-
+functional
+-
+string
+-
+latch.h
+/home/zzx/桌面/webserver /Server/latch.h
+noncopyable.h
+/home/zzx/桌面/webserver /Server/noncopyable.h
+
+/home/zzx/桌面/webserver /Timer/timer.cpp
+timer.h
+/home/zzx/桌面/webserver /Timer/timer.h
+utility
+-
+
+/home/zzx/桌面/webserver /Timer/timer.h
+functional
+-
+timestamp.h
+/home/zzx/桌面/webserver /Timer/timestamp.h
+noncopyable.h
+/home/zzx/桌面/webserver /Timer/noncopyable.h
+
+/home/zzx/桌面/webserver /Timer/timerqueue.cpp
+timerqueue.h
+/home/zzx/桌面/webserver /Timer/timerqueue.h
+assert.h
+-
+sys/timerfd.h
+-
+cstring
+-
+Channel.h
+/home/zzx/桌面/webserver /Timer/Channel.h
+
+/home/zzx/桌面/webserver /Timer/timerqueue.h
+unistd.h
+-
+sys/timerfd.h
+-
+set
+-
+vector
+-
+memory
+-
+utility
+-
+functional
+-
+timer.h
+/home/zzx/桌面/webserver /Timer/timer.h
+timestamp.h
+/home/zzx/桌面/webserver /Timer/timestamp.h
+noncopyable.h
+/home/zzx/桌面/webserver /Timer/noncopyable.h
+log.h
+/home/zzx/桌面/webserver /Timer/log.h
+
+/home/zzx/桌面/webserver /main.cpp
+iostream
+-
+stdio.h
+-
+string
+-
+functional
+-
+memory
+-
+climits
+-
+map
+-
+string.h
+-
+EventLoop.h
+/home/zzx/桌面/webserver /EventLoop.h
+Server.h
+/home/zzx/桌面/webserver /Server.h
+address.h
+/home/zzx/桌面/webserver /address.h
+httpserver.h
+/home/zzx/桌面/webserver /httpserver.h
+httprequest.h
+/home/zzx/桌面/webserver /httprequest.h
+httpresponse.h
+/home/zzx/桌面/webserver /httpresponse.h
+mutex
+/home/zzx/桌面/webserver /mutex
+log.h
+/home/zzx/桌面/webserver /log.h
+mysql/mysql.h
+-
+
